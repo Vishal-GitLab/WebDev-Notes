@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>my name is <span id="name"> ST. Vishal Chaurasiya</span></h1>
+    <button onclick="changeName()">Change your name </button>
+    <!--task 6-->
+    <div>
+        <h1 id="input">Enter your name </h1>
+        <button onclick="changename()">Input your name</button>
+    </div>
+   
+    <script>
+        const changeName=()=>{
+            const name =prompt("Enter your name")
+            document.getElementById("name").innerHTML=name
+        }
+    </script>
+    
+</body>
+</html>

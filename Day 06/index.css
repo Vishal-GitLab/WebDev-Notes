@@ -1,0 +1,30 @@
+.container{
+    min-height: 100vh;
+    border: 2px solid black;
+    padding: 10px;
+
+}
+.row1{
+    border: 2px solid blue;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+
+}
+.row1child1{
+    border: 2px solid black;
+    width: 25%;
+    padding: 20px;
+}
+.row1child3{
+    border: 2px solid black;
+    width: 75%;
+     padding: 20px; 
+}
+.row1child3 div{
+   width: 100%; 
+    border: 2px solid black;
+    
+    padding: 20px;
+}
+

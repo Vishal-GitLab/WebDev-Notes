@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #box{
+            height: 300px;
+            width: 300px;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ram Ram bhai Sara ne </h1>
+    <h1 id="name">hello world</h1>
+    <div id="box"></div>
+    <script>
+        const changeName=()=>{
+            document.getElementById("name").style.color="green"
+
+        }
+
+//         console.log("this is JS form fronted" )
+//         for(let i=0;i<10;i++){
+//             console.log(i)
+//             console.log("this is huge 84ya")
+//         }
+//         let i=0;
+//         while(i<)
+//         while(i<11){
+//     console.log(`1this is while loop running ${i}`)
+//     i++;
+// }
+        // let j=1000;
+        // do{
+        //     console.log( 'this is do while running ${j} tiems')
+        //     j++;
+
+        // } while(j<11);
+
+        //     const changeName=()=>{
+        //         document.getElementById("name").style.color="yellow"
+
+        //     }
+            const changeBox=()=>{
+                document.getElementById("box").style.backgroundColor="green"
+                document.getElementById("box").style.borderRadius="50%";}
+
+            
+            setTimeout(()=>{
+                changeName()
+                changeBox()
+            },2000)
+            const fruits=["apple","mango","pine","graps","papaya","banana"];
+            console.log(fruits[2]);
+            //push
+            fruits.push("orange")
+            //pop
+            fruits.pop()
+            fruits.pop()
+            fruits.pop()
+            for(let x in fruits){
+                console.log(`i like  to eat $ {fruits[x]}`)
+                const ages=[77,10,65,11,9,43,66,76,90]
+                console.log(ages.sort((a,b)=>a-b))
+                
+                console.log(ages.sort((a,b)=>b-a))
+                //mapping
+                ages.map((x)=>{
+                    console.log(`i am ${x} years old usin map`)
+
+                })
+                // for each
+                ages.foreach((x)=>{
+                    console.log(`i am ${x} years old usin map`)
+
+                })
+                //filter
+                const voters=ages.filter((age)=>age>18)
+                console.log(voters)
+                //
+                //Task 5 
+                // filter an array(retired) for people above 60
+                const students2=["Rohan","Mohan","Sohan","Rohit","Meera","Vaibhav"]
+
+                const slicedArray=students.slice(2,5)
+                console.log(slicedArray)
+                   //Splice in Array
+                   console.log("Original array",students)
+                   const splicedArray=students.splice(2,2,"Selena",Uday)
+                   console.log(students)
+                   //include
+                   const checkName=students.includes("Suraj")
+                   console.log(checkName)
+                   const sampleNegative=students.at(-4)
+                   console.log(sampleNegative)
+                   //let
+                   //var
+                   //const
+                   const name="Sujeet"
+                   function myFunction(){
+                    let name="Sujeeta"
+                    consol.log(name)
+                   }
+                   myFunction()
+                   let age=false
+                   //objects
+                   let students={
+                    name:"Sonu",
+                    class:"XII",
+                    rollNo:12,
+                    marks:90
+                   }
+                }
+                   
+
+
+
+    </script>
+</body>
+</html>
